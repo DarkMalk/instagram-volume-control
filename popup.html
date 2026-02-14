@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+  </style>
+</head>
+<body>
+  <label for="volume_input">
+      Volume: <span id="counter_volume"></span>
+  </label>
+  <input id='volume_input' type="range" min="0" max="100" value="100" />
+  <script src="popup.js"></script>
+</body>
+</html>
